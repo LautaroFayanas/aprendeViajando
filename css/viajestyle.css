@@ -1,0 +1,68 @@
+.logo{
+    width: 40px;
+    margin: 5px 20px;
+    padding-bottom: 10px;
+  
+  }
+  footer{
+    width: 100%;
+   background-color:#FF5733;
+}
+
+.coder{
+    text-decoration: none;
+    color: yellow;
+}
+
+.contenedorUno{
+    width: 100%;
+    color:black;
+ }
+
+ .textofooter{
+    width: 30%;
+    font-size: 18px;
+    display: inline-block;
+    height: 50px;
+    margin: 50px 150px;
+    justify-content: center;
+ }
+
+ .textofooter1{
+    font-size: 18px;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    display: inline-block;
+    margin: 50px;
+    
+ }
+
+ @media screen and (max-width: 500px) { 
+   
+   .navbar {
+      text-align: center;
+  }
+
+.navbar-toggler {
+   
+   display: flex;
+   justify-content: end;
+   align-items: flex-end;
+   text-align: end;
+   margin: 5px 390px;
+}
+  .logo{
+   display: none;
+}
+
+   .textofooter1{
+     display: none;
+      
+   }
+   .textofooter{
+  font: 15px;
+      
+   }
+
+  }

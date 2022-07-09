@@ -1,0 +1,1554 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.tabla {
+    margin: auto;
+}
+
+.navbar {
+    color: white;
+}
+
+.menuOne {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.menuOne:hover {
+    background-color: #FF5733;
+}
+
+.blanco {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+
+}
+
+.blanco:hover {
+    color: #17202A;
+}
+
+
+
+.logo {
+    width: 40px;
+    margin: 5px 20px;
+    padding-bottom: 10px;
+
+}
+
+.tituloh1principal {
+
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: white;
+}
+
+.background {
+    background-color: black;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 94.7%;
+    opacity: 15%;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+
+
+
+}
+
+.botoninicioprincipal {
+    position: absolute;
+    width: 35%;
+    margin-left: 400px;
+    margin-top: 550px;
+    padding: 5px;
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+    border: solid 0.5px white;
+    background-color: #FF5733;
+    border-radius: 15px;
+
+}
+
+.botoninicioprincipal:hover {
+    background-color: white;
+    color: #FF5733;
+    border: solid 0.5px#FF5733;
+}
+
+.subtituloh3principal {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 55%;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 45px;
+    color: white;
+}
+
+.iconoabajo {
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    margin-left: 1000px;
+    margin-top: 700px;
+}
+
+
+
+.h4iniciosub {
+    width: 100%;
+    height: 90%;
+    padding-left: 20px;
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+
+
+.redes {
+    position: absolute;
+    width: 12%;
+    margin-left: 50px;
+    height: 87%;
+    align-items: flex-end;
+    justify-content: end;
+    display: flex;
+
+}
+
+.redesuno {
+    padding: 5px;
+}
+
+.redesdos {
+    padding: 5px;
+}
+
+.redestres {
+    padding: 5px;
+}
+
+.redescuatro {
+    padding: 5px;
+}
+
+
+/******************************* VIAJES *************************************************/
+
+.titulo_viajes {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+
+
+}
+
+.vermasviajes {
+    display: flex;
+    padding-right: 150px;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+
+.subtitulo_viajes {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    height: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.backgrounddos {
+    background-color: black;
+    width: 100%;
+    height: 96.5%;
+    position: absolute;
+    opacity: 25%;
+}
+
+
+/************************************** HOTELES ***********************************/
+
+.titulo_hoteles {
+    position: absolute;
+    margin-top: 180px;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    margin-left: 180px;
+}
+
+.contenedor .btnHotel{
+    position: absolute;
+    width: 35%;
+    margin-left: 400px;
+    margin-top: 550px;
+    padding: 5px;
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 15px;
+}
+
+.mashoteles {
+    display: flex;
+    padding-right: 150px;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.tituloHotel{
+    position: absolute;
+    font-size: 70px;
+    width: 40%;
+    color:#FF5733;
+    margin: -380px 20px;
+}
+
+.tituloHotel1{
+    position: absolute;
+    font-size: 70px;
+    width: 40%;
+    color:#FF5733;
+    margin: -220px 20px;
+}
+
+.tituloHotel2{
+    position: absolute;
+    font-size: 70px;
+    width: 40%;
+    color:#FF5733;
+    margin: -240px 10px;
+}
+
+.tituloHotel3{
+    position: absolute;
+    font-size: 70px;
+    width: 40%;
+    color:#FF5733;
+    margin: -240px 10px;
+}
+
+/************************************** FIN SECCION HOTELES ***************************/
+
+
+/************************************ SECCION BLOG *********************************/
+
+.titulovideos {
+    font-size: 95px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF5733;
+    position: absolute;
+}
+
+.subtitulovideosuno {
+
+    font-size: 45px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+}
+
+.subtitulovideosdos {
+
+    font-size: 35px;
+    width: 100%;
+    height: 160%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+}
+
+.containerdevideos {
+    width: 95%;
+    margin: 20px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "uno uno dos"
+        "uno uno tres"
+        "cuatro cinco seis";
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.containervideoUno {
+    grid-area: uno;
+
+
+}
+
+.contenedorimagenuno {
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.contenedorimagenuno:hover {
+    padding: 5px;
+
+}
+
+.videouno {
+    width: 820px;
+
+}
+
+.containervideoDos {
+    grid-area: dos;
+
+
+}
+
+.videodos {
+    width: 400px;
+
+}
+
+.containervideoTres {
+    grid-area: tres;
+}
+
+.containervideoCuatro {
+    grid-area: cuatro;
+}
+
+.containervideoCinco {
+    grid-area: cinco;
+}
+
+.containervideoSeis {
+    grid-area: seis;
+}
+
+.videoscompartidos {
+    color: white;
+}
+
+.titulovideoscompartidos {
+    font-size: 30px;
+}
+
+.titulovideoscompartidosbis {
+    font-size: 25px;
+    color: #FF5733;
+}
+
+.contenedordividor {
+    width: 100%;
+}
+
+
+
+/************************************** FIN SECCION BLOG ****************************/
+
+
+
+
+
+
+
+.dividorUno {
+
+
+
+    display: inline-block;
+
+    transition: all 0.8s;
+}
+
+
+.dividorUno:hover {
+    padding: 10px;
+}
+
+.dividorDos {
+
+
+    display: inline-block;
+    margin: 2px;
+    transition: all 0.8s;
+
+}
+
+.dividorDos:hover {
+
+
+    padding: 10px;
+
+
+}
+
+.dividorTres {
+
+
+    display: inline-block;
+    margin: 2px;
+    transition: all 0.8s;
+
+}
+
+.dividorTres:hover {
+
+
+    padding: 10px;
+
+
+}
+
+.dividorCuatro {
+
+
+    display: inline-block;
+    margin: 2px;
+    transition: all 0.8s;
+
+
+}
+
+.dividorCuatro:hover {
+
+    padding: 10px;
+
+
+}
+
+
+
+
+.imagenes {
+    height: 550px;
+    width: 550px;
+    border-radius: 3%;
+    margin: 15px;
+
+
+}
+
+.menumedio {
+    margin-top: 5px;
+
+
+}
+
+.menuTwo {
+
+
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    background-color: #FF5733;
+
+}
+
+
+
+.blancoUno {
+    font-size: 20px;
+    text-decoration: none;
+
+    color: white;
+    margin: 50px 80px;
+
+}
+
+.blancoUno:hover {
+    color: #17202A;
+}
+
+/******************************* CATARATAS ***********************************/
+
+.titulocataratas {
+    text-align: center;
+    font-size: 900%;
+    color: #FF5733;
+    position: absolute;
+    padding-left: 29%;
+    padding-top: 17%;
+}
+
+.titulocataratassub {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 75%;
+    align-items: flex-end;
+    font-size: 200%;
+    color: white;
+    position: absolute;
+
+
+}
+
+.btnHotel {
+    position: absolute;
+    margin: 210px 160px;
+    width: 40%;
+}
+
+
+
+
+
+.textodecataratas {
+
+    color: black;
+    opacity: 80%;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 50px;
+    letter-spacing: 1px;
+
+}
+
+.textocomplejo {
+    color: black;
+    opacity: 80%;
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    margin: 50px;
+
+}
+
+.textodeimagenSection {
+    margin: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    color: black;
+    opacity: 80%;
+    font-size: 17px;
+}
+
+/******************************************* FOOTER *****************************************/
+
+footer {
+    width: 100%;
+    background-color: #FF5733;
+}
+
+.coder {
+    text-decoration: none;
+    color: yellow;
+}
+
+.contenedorUno {
+    width: 100%;
+    color: black;
+}
+
+.textofooter {
+    font-size: 18px;
+    display: inline-block;
+    height: 10px;
+    width: 30%;
+    margin: 50px 150px;
+    justify-content: center;
+}
+
+.textofooter1 {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 30%;
+    height: 10px;
+    justify-content: center;
+    display: inline-block;
+
+}
+
+/*********************
+************************ FINAL DEL FOOTER ****************/
+
+
+
+.imagenes_viajes {
+    width: 20%;
+    height: 350px;
+    transition: all 0.8s;
+}
+
+.imagenes_viajes:hover {
+    padding: 5px;
+    background-color: #FF5733;
+}
+
+#grilla {
+
+    margin-top: 40px;
+    padding-left: 25px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 35% 31%;
+    grid-template-rows: 150px 100px;
+    grid-template-areas: "foto1 foto2 foto3"
+        "foto1 foto2 foto3"
+        "texto1 texto2 texto3";
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.contenedordetitulos {
+    background-color: #FF5733;
+    width: 100%;
+    height: 60px;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+.titulodesecciones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #FF5733;
+    color: white;
+    font-size: 22px;
+
+
+}
+
+.textouno {
+    grid-area: texto1;
+
+}
+
+.textodeimagen {
+    color: black;
+    opacity: 70%;
+    font-size: 17px;
+}
+
+.imagenUno {
+
+    grid-area: foto1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    transition: all 0.5s;
+
+
+
+}
+
+.imagenDos {
+    grid-area: foto2;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+
+
+
+}
+
+.imagenTres {
+    grid-area: foto3;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all 0.5s;
+
+}
+
+.playas {
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-right: 150%;
+}
+
+
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+.animate__animated.animate__zoomIn.canada {
+    padding-top: 90px;
+    text-decoration: none;
+    position: absolute;
+    width: 35%;
+    height: 420px;
+    font-size: 35px;
+    color: white;
+    animation-iteration-count: infinite;
+    animation-duration: 2.8s;
+
+}
+
+
+.animate__animated.animate__zoomIn.australia {
+    padding-top: 90px;
+    position: absolute;
+    width: 31%;
+    height: 420px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    animation-iteration-count: infinite;
+    animation-duration: 2.8s;
+}
+
+.animate__animated.animate__zoomIn.tokyo {
+    padding-top: 90px;
+    position: absolute;
+    text-decoration: none;
+    width: 30%;
+    height: 420px;
+    font-size: 35px;
+    color: white;
+    animation-iteration-count: infinite;
+    animation-duration: 2.8s;
+}
+
+
+
+
+
+.titulosdesection {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 260px;
+    font-size: 26px;
+    color: white
+}
+
+
+
+#grillaDos {
+
+
+
+    width: 100%;
+    padding-top: 50px;
+    height: 150%;
+    display: grid;
+    grid-template-columns: 24% 50% 24%;
+    grid-template-rows: 250px 300px;
+    grid-template-areas: "foto1 foto2 foto3"
+        "foto4 foto2 foto5";
+
+
+    column-gap: 5px;
+
+}
+
+.ContenedorOne {
+
+    grid-area: foto1;
+    overflow: hidden;
+    display: flex;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+
+.ContenedorDos {
+    grid-area: foto2;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+
+.ContenedorTres {
+    grid-area: foto3;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5%;
+}
+
+.ContenedorCuatro {
+    grid-area: foto4;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5%;
+}
+
+.ContenedorCinco {
+    margin: 28px;
+    grid-area: foto5;
+
+}
+
+.menupromo {
+    font-size: 22px;
+    margin: 8px;
+    padding: 10px;
+    border-bottom: solid 1px;
+    border-color: #FF5733;
+    color: black;
+}
+
+.menupromo:hover {
+    border-color: white;
+}
+
+
+.menupromomenu {
+    text-decoration: none;
+    color: black;
+}
+
+.menupromomenu:hover {
+    color: #FF5733;
+}
+
+
+.titulovideosub {
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.span {
+    color: #FF5733;
+}
+
+.titulovideosubDos {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 170px;
+}
+
+.titulovideosubDos:hover {
+    color: black;
+}
+
+.titulovideosubDosbis {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 205px;
+    text-decoration: none;
+}
+
+.titulovideosubDosbis:hover {
+    color: black;
+}
+
+
+
+.subtitulosection {
+    width: 550px;
+    height: 550px;
+    color: #FF5733;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    font-size: 80px;
+
+
+}
+
+.subtitulosection:hover {
+    color: white;
+}
+
+.img1 {
+    border-radius: 3%;
+}
+
+
+
+
+.imagencontenedordos {
+    border-radius: 2%;
+}
+
+
+
+
+
+.Contenedordebloque {
+
+
+    width: 90%;
+    height: 100%;
+    color: white;
+    border-radius: 5%;
+    margin: 20px;
+
+
+}
+
+.Contenedordebloque:hover {
+    background-color: white;
+    transition: all 0.3s;
+    color: #17202A;
+}
+
+
+
+.imgUno {
+    width: 100%;
+    height: 50%;
+
+
+}
+
+.imageninicio {
+    padding-bottom: 30px;
+}
+
+.lineas {
+    margin: 20px 100px;
+
+
+}
+
+.masviajes {
+    display: flex;
+    width: 10%;
+    margin: 15px 1050px;
+    height: 100%;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+
+.h2bis {
+    position: absolute;
+    text-decoration: none;
+    font-size: 35px;
+    display: flex;
+    color: white;
+    width: 28%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3 {
+    padding-top: 25px;
+}
+
+.h4 {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.a {
+    color: #FF5733;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: #17202A;
+}
+
+/********************************** CONTACTOS *******************************************/
+.titulocontactos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+
+}
+
+.subtitulocontactos {
+    display: flex;
+    width: 90%;
+    height: 130%;
+    padding: 25px;
+    justify-content: end;
+    align-items: center;
+    color: white;
+
+    font-size: 50px;
+}
+
+.main_contactos {
+    color: white;
+}
+
+.enlacecontacto {
+    color: white;
+    text-decoration: none;
+}
+
+/********************************** RESPONSIVE **********************************/
+
+@media screen and (max-width: 800px) {
+
+
+    .blanco {
+        display: flex;
+        font-size: 14px;
+
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .tituloh1principal {
+        font-size: 40px;
+        padding-bottom: 260px;
+    }
+
+    .subtituloh3principal {
+        font-size: 20px;
+        padding-bottom: 150px;
+    }
+
+    .iconoabajo {
+        display: none;
+    }
+
+    .botoninicioprincipal {
+        font-size: 13px;
+        margin-left: 300px;
+        margin-top: 250px;
+
+        width: 150px;
+
+    }
+
+    .redes {
+        display: none;
+
+    }
+
+
+
+    .masviajes {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+
+    .animate__animated.animate__zoomIn.tokyo {
+        font-size: 25px;
+        margin: 0%;
+    }
+
+    .animate__animated.animate__zoomIn.australia {
+        margin: 0%;
+        font-size: 25px;
+    }
+
+    .animate__animated.animate__zoomIn.canada {
+        margin: 0%;
+        font-size: 25px;
+    }
+
+    .imagenUno {
+        margin-top: 50px;
+        height: 250px;
+    }
+
+    .imagenDos {
+        margin-top: 50px;
+        height: 250px;
+    }
+
+    .imagenTres {
+        margin-top: 50px;
+        height: 250px;
+    }
+
+    .textouno {
+        padding-bottom: 55px;
+
+    }
+
+    .texto2 {
+        padding-bottom: 55px;
+    }
+
+    .texto3 {
+        padding-bottom: 55px;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .h4iniciosub {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .titulocataratas {
+        font-size: 85px;
+        margin-top: 25px;
+
+    }
+
+    .titulocataratassub {
+        display: none;
+    }
+
+    .titulocataratassubuno {
+        display: none;
+    }
+
+    .imagenes {
+
+        margin: 0%;
+    }
+
+    .subtitulosection {
+        font-size: 50px;
+        position: absolute;
+
+
+    }
+
+
+    .textodeimagenSection {
+        display: none;
+
+    }
+
+    .backgrounddos {
+        display: none;
+    }
+
+    #grillaDos {
+        display: none;
+
+    }
+
+    .menuTwo {
+        display: non
+    }
+
+
+    footer {
+        display: flex;
+    }
+
+    .contenedorUno {
+        margin: 10px;
+    }
+
+    .contenedorDos {
+        margin: 10px;
+    }
+
+
+    .titulo_viajes {
+        font-size: 45px;
+        padding-bottom: 300px;
+    }
+
+    .subtitulo_viajes {
+        display: none;
+    }
+
+
+
+    #grillaTres {
+        width: 90%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 35% 35% 35%;
+        grid-template-rows: 500px;
+        row-gap: 1px;
+        font-size: 12px;
+        column-gap: 1px;
+
+
+
+    }
+
+    .titulo_hoteles {
+        margin: 0%;
+        width: 100%;
+        height: 50%;
+        padding-top: 150px;
+        font-size: 40px;
+    }
+
+    .containerdehoteles {
+        margin: 10%;
+        padding-left: 35px;
+
+    }
+
+    .subtitulovideosuno {
+        margin-top: 70px;
+    }
+
+    .subtitulo_hoteles {
+        display: none;
+    }
+
+    .container_hoteles {
+        font-size: 32px;
+    }
+
+    .container_hotelesTres {
+        font-size: 41px;
+    }
+
+    .titulovideos {
+        font-size: 50px;
+        padding-bottom: 200px;
+    }
+
+    .subtitulovideosuno {
+        font-size: 25px;
+        padding-bottom: 500px;
+    }
+
+    .subtitulovideosdos {
+        padding-bottom: 700px;
+        font-size: 20px;
+    }
+
+    .titulocontactos {
+        font-size: 50px;
+        padding-bottom: 45px;
+    }
+
+    .subtitulocontactos {
+        font-size: 25px;
+        padding-bottom: 60px;
+    }
+
+    .vermasviajes {
+        display: none;
+    }
+
+    .h2bis {
+        font-size: 20px;
+    }
+
+    .h4 {
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .titulodesecciones {
+        margin-top: 65px;
+    }
+  
+
+    .redescontactos a img{
+        display: none;
+    }
+    .navbar {
+        
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        text-align: end;
+        margin: 5px 390px;
+    }
+
+    #api {
+        display: none;
+    }
+
+    .subtituloh3principal {
+        display: none;
+    }
+
+    .tituloh1principal {
+        display: flex;
+        height: 50px;
+        margin-top: 120px;
+    }
+
+    .botoninicioprincipal {
+        display: flex;
+        width: 25%;
+        text-align: center;
+        justify-content: center;
+        margin: 190px 180px;
+    }
+
+    .animate__animated {
+        display: none;
+    }
+
+    .contenedordetitulos1 {
+        display: none;
+    }
+
+    #grilla {
+        display: none;
+
+    }
+
+    #grillaDos {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .ContenedorOne {
+        display: none;
+    }
+
+    .titulo_hoteles {
+        font-size: 40px;
+        margin: 0%;
+        padding-left: 70px;
+        padding-top: 100px;
+    }
+
+    .containerdehoteles {
+        margin: 0%;
+
+    }
+
+    .titulo_viajes {
+        margin: 0%;
+        padding-left: 50px;
+        font-size: 40px;
+    }
+
+    .imagenes {
+
+        width: 60%;
+        margin-top: 10px;
+        height: 10%;
+    }
+
+    .titulocataratas {
+        display: flex;
+        text-align: center;
+        margin: 65px 25px;
+        width: 50%;
+        height: 100px;
+        font-size: 45px;
+    }
+
+    .menuTwo {
+        display: none;
+    }
+
+    .subtitulosection {
+        display: none;
+    }
+
+
+    /* Hoteles */
+   .contenedor .btnHotel {
+        position: absolute;
+        margin: 210px 150px;
+        width: 40%;
+    }
+
+    .titulo_hoteles{
+        margin: -20px;
+    }
+   
+    .tituloHotel3{
+        margin-top: -180px;
+        width: 70%;
+    }
+    .tituloHotel2{
+        margin-top: -180px;
+        width: 70%;
+    }
+    .tituloHotel1{
+        margin-top: -180px;
+        width: 65%;
+    }
+    .tituloHotel{
+        margin-top: -280px;
+        width: 70%;
+    }
+    .textofooter1{
+        display: none;
+    }
+
+    .container{
+        text-align: center;
+    }
+
+
+}
+
+
+.seguinos{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.redescontactos{
+    position: absolute;
+    margin-top: 120px;
+    width: 20%;
+    display: flex;
+}
+.redescontactos a{
+   display: flex;
+   align-items: center;
+   margin: auto;
+   justify-content: center;
+
+}
+.redescontactos img{
+    width: 30px;
+}
+
+#btnBlackMood {
+
+    background-image: url(/img/iconos/noche.png);
+    margin-right: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: #FF5733;
+    border-radius: 50%;
+    border: none;
+
+}
+.imagen1{   
+    height: 50px;
+}
+
+#api {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    width: 10%;
+    margin-left: 1000px;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+#apiClima {
+    color: white;
+    font-size: 16px;
+    height: 200px;
+    background-color: black;
+
+}
+
+.h2clima {
+    padding-top: 45px;
+}
