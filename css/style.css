@@ -230,6 +230,10 @@ body {
     margin-left: 180px;
 }
 
+.titulo_hoteles a{
+    text-decoration: none;
+}
+
 .contenedor .btnHotel{
     position: absolute;
     width: 35%;
@@ -1375,8 +1379,8 @@ img {
 
     .tituloh1principal {
         display: flex;
-        height: 50px;
-        margin-top: 120px;
+        height: 20px;
+        margin-top: 150px;
     }
 
     .botoninicioprincipal {
@@ -1384,7 +1388,7 @@ img {
         width: 25%;
         text-align: center;
         justify-content: center;
-        margin: 190px 180px;
+        margin: 220px 180px;
     }
 
     .animate__animated {
@@ -1451,6 +1455,9 @@ img {
         display: none;
     }
 
+  .imageninicio{
+    margin-bottom: -70px;
+  }
 
     /* Hoteles */
    .contenedor .btnHotel {
